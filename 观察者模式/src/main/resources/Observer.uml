@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Observer</OriginalElement>
+  <nodes>
+    <node x="307.49999999999994" y="461.0">WeatherStation</node>
+    <node x="98.33333333333323" y="195.0">CurrentConditionsDisplay</node>
+    <node x="448.4999999999999" y="23.0">Observer</node>
+    <node x="0.0" y="23.0">DisplayElement</node>
+    <node x="164.99999999999994" y="0.0">Subject</node>
+    <node x="401.9999999999999" y="149.0">WeatherData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WeatherStation" target="CurrentConditionsDisplay">
+      <point x="-66.0" y="-26.5" />
+      <point x="329.49999999999994" y="441.0" />
+      <point x="166.33333333333323" y="441.0" />
+      <point x="-68.0" y="85.0" />
+    </edge>
+    <edge source="CurrentConditionsDisplay" target="Observer">
+      <point x="102.00000000000006" y="-85.0" />
+      <point x="336.33333333333326" y="129.0" />
+      <point x="507.9999999999999" y="129.0" />
+      <point x="-59.5" y="26.5" />
+    </edge>
+    <edge source="WeatherData" target="Subject">
+      <point x="-75.0" y="-131.0" />
+      <point x="476.9999999999999" y="119.0" />
+      <point x="367.49999999999994" y="119.0" />
+      <point x="81.0" y="49.5" />
+    </edge>
+    <edge source="CurrentConditionsDisplay" target="Subject">
+      <point x="-33.99999999999994" y="-85.0" />
+      <point x="200.3333333333333" y="129.0" />
+      <point x="205.49999999999994" y="129.0" />
+      <point x="-81.0" y="49.5" />
+    </edge>
+    <edge source="CurrentConditionsDisplay" target="DisplayElement">
+      <point x="-101.99999999999994" y="-85.0" />
+      <point x="132.3333333333333" y="129.0" />
+      <point x="72.5" y="129.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="WeatherData" target="Observer">
+      <point x="75.0" y="-131.0" />
+      <point x="59.5" y="26.5" />
+    </edge>
+    <edge source="WeatherStation" target="WeatherData">
+      <point x="22.0" y="-26.5" />
+      <point x="417.49999999999994" y="431.0" />
+      <point x="476.9999999999999" y="431.0" />
+      <point x="-75.0" y="131.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0620827770360481" x="192.80138277812694" y="287.4148334380892" />
+  <SelectedNodes>
+    <node>Observer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
