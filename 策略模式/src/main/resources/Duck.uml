@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Duck</OriginalElement>
+  <nodes>
+    <node x="639.5056818181818" y="0.0">QuackBehavior</node>
+    <node x="396.375" y="483.0">MiniDuckSimulator</node>
+    <node x="151.00568181818176" y="0.0">FlyBehavior</node>
+    <node x="138.0" y="183.0">FlyWithWings</node>
+    <node x="0.0" y="183.0">FlyNoWay</node>
+    <node x="706.0" y="183.0">Squeak</node>
+    <node x="285.0" y="183.0">Quack</node>
+    <node x="444.0" y="113.0">Duck</node>
+    <node x="280.1704545454545" y="356.0">MarrledDuck</node>
+    <node x="865.0" y="183.0">MuteQuack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MuteQuack" target="QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="934.5" y="83.0" />
+      <point x="761.1306818181818" y="83.0" />
+      <point x="52.125" y="26.5" />
+    </edge>
+    <edge source="Duck" target="QuackBehavior">
+      <point x="60.5" y="-96.5" />
+      <point x="625.5" y="93.0" />
+      <point x="691.6306818181818" y="93.0" />
+      <point x="-17.375" y="26.5" />
+    </edge>
+    <edge source="MiniDuckSimulator" target="Duck">
+      <point x="44.0" y="-26.5" />
+      <point x="528.375" y="458.0" />
+      <point x="573.6174242424242" y="458.0" />
+      <point x="573.6174242424242" y="336.0" />
+      <point x="645.6666666666667" y="336.0" />
+      <point x="80.66666666666674" y="96.5" />
+    </edge>
+    <edge source="MarrledDuck" target="FlyWithWings">
+      <point x="-58.125" y="-38.5" />
+      <point x="299.5454545454545" y="336.0" />
+      <point x="201.5" y="336.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="FlyNoWay" target="FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="59.0" y="93.0" />
+      <point x="170.67234848484838" y="93.0" />
+      <point x="-39.33333333333337" y="26.5" />
+    </edge>
+    <edge source="MiniDuckSimulator" target="MarrledDuck">
+      <point x="-44.0" y="-26.5" />
+      <point x="440.375" y="458.0" />
+      <point x="357.6704545454545" y="458.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="Duck" target="FlyBehavior">
+      <point x="-60.5" y="-96.5" />
+      <point x="504.5" y="73.0" />
+      <point x="249.33901515151513" y="73.0" />
+      <point x="39.33333333333337" y="26.5" />
+    </edge>
+    <edge source="FlyWithWings" target="FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="201.5" y="93.0" />
+      <point x="210.00568181818176" y="93.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="MarrledDuck" target="Duck">
+      <point x="58.125" y="-38.5" />
+      <point x="415.7954545454545" y="336.0" />
+      <point x="565.0" y="336.0" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="MarrledDuck" target="Quack">
+      <point x="-19.375" y="-38.5" />
+      <point x="338.2954545454545" y="336.0" />
+      <point x="354.5" y="336.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="Quack" target="QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="354.5" y="83.0" />
+      <point x="656.8806818181818" y="83.0" />
+      <point x="-52.125" y="26.5" />
+    </edge>
+    <edge source="Squeak" target="QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="775.5" y="93.0" />
+      <point x="726.3806818181818" y="93.0" />
+      <point x="17.375" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="372.0" y="260.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
