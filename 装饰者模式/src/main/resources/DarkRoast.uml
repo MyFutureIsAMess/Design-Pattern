@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DarkRoast</OriginalElement>
+  <nodes>
+    <node x="222.0" y="162.0">CondimentDecorator</node>
+    <node x="222.0" y="277.0">Whip</node>
+    <node x="444.0" y="150.0">Espresso</node>
+    <node x="609.0" y="150.0">HouseBlend</node>
+    <node x="0.0" y="446.0">StarbuzzCoffee</node>
+    <node x="444.0" y="277.0">Mocha</node>
+    <node x="499.25" y="0.0">Beverage</node>
+    <node x="779.0" y="150.0">DarkRoast</node>
+    <node x="0.0" y="277.0">Soy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Espresso" target="Beverage">
+      <point x="0.0" y="-38.5" />
+      <point x="516.5" y="130.0" />
+      <point x="575.0" y="130.0" />
+      <point x="-25.25" y="50.0" />
+    </edge>
+    <edge source="CondimentDecorator" target="Beverage">
+      <point x="0.0" y="-26.5" />
+      <point x="323.0" y="120.0" />
+      <point x="524.5" y="120.0" />
+      <point x="-75.75" y="50.0" />
+    </edge>
+    <edge source="Soy" target="CondimentDecorator">
+      <point x="0.0" y="-62.0" />
+      <point x="101.0" y="252.0" />
+      <point x="255.66666666666669" y="252.0" />
+      <point x="-67.33333333333331" y="26.5" />
+    </edge>
+    <edge source="DarkRoast" target="Beverage">
+      <point x="0.0" y="-38.5" />
+      <point x="851.5" y="120.0" />
+      <point x="676.0" y="120.0" />
+      <point x="75.75" y="50.0" />
+    </edge>
+    <edge source="Mocha" target="CondimentDecorator">
+      <point x="0.0" y="-62.0" />
+      <point x="545.0" y="252.0" />
+      <point x="390.3333333333333" y="252.0" />
+      <point x="67.33333333333331" y="26.5" />
+    </edge>
+    <edge source="Whip" target="CondimentDecorator">
+      <point x="0.0" y="-62.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="HouseBlend" target="Beverage">
+      <point x="0.0" y="-38.5" />
+      <point x="684.0" y="130.0" />
+      <point x="625.5" y="130.0" />
+      <point x="25.25" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="462.0" y="249.5" />
+  <SelectedNodes>
+    <node>DarkRoast</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
