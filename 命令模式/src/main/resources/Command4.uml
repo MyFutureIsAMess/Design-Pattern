@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>RemoteLoader4</OriginalElement>
+  <nodes>
+    <node x="227.0" y="325.0">TV</node>
+    <node x="2236.0" y="156.0">TvOffCommand</node>
+    <node x="976.0000000000001" y="156.0">HottubOnCommand</node>
+    <node x="1735.0" y="156.0">MacroCommand</node>
+    <node x="1237.0" y="156.0">LightOnCommand</node>
+    <node x="0.0" y="325.0">Stereo</node>
+    <node x="506.0000000000001" y="180.0">NoCommand</node>
+    <node x="2000.0" y="156.0">LightOffCommand</node>
+    <node x="827.0" y="325.0">RemoteLoader4</node>
+    <node x="207.0000000000001" y="156.0">StereoOffWithCDCommand</node>
+    <node x="1145.25" y="0.0">Command</node>
+    <node x="426.0" y="325.0">Light</node>
+    <node x="1473.0" y="156.0">HottubOffCommand</node>
+    <node x="677.0000000000001" y="156.0">StereoOnWithCDCommand</node>
+    <node x="625.0" y="325.0">Hottub</node>
+    <node x="0.0" y="156.0">TVOnCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StereoOnWithCDCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="816.5000000000001" y="126.0" />
+      <point x="1198.1" y="126.0" />
+      <point x="-22.65000000000009" y="38.0" />
+    </edge>
+    <edge source="LightOffCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="2108.0" y="106.0" />
+      <point x="1273.6" y="106.0" />
+      <point x="52.84999999999991" y="38.0" />
+    </edge>
+    <edge source="TvOffCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="2329.0" y="96.0" />
+      <point x="1288.7000000000003" y="96.0" />
+      <point x="67.95000000000005" y="38.0" />
+    </edge>
+    <edge source="MacroCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="1857.5" y="116.0" />
+      <point x="1258.5" y="116.0" />
+      <point x="37.75" y="38.0" />
+    </edge>
+    <edge source="HottubOnCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="1096.5" y="136.0" />
+      <point x="1213.2000000000003" y="136.0" />
+      <point x="-7.5499999999999545" y="38.0" />
+    </edge>
+    <edge source="HottubOffCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="1594.0" y="126.0" />
+      <point x="1243.4" y="126.0" />
+      <point x="22.65000000000009" y="38.0" />
+    </edge>
+    <edge source="NoCommand" target="Command">
+      <point x="0.0" y="-38.0" />
+      <point x="581.5000000000001" y="116.0" />
+      <point x="1183.0" y="116.0" />
+      <point x="-37.75" y="38.0" />
+    </edge>
+    <edge source="LightOnCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="1345.0" y="136.0" />
+      <point x="1228.3000000000002" y="136.0" />
+      <point x="7.5499999999999545" y="38.0" />
+    </edge>
+    <edge source="StereoOffWithCDCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="346.5000000000001" y="106.0" />
+      <point x="1167.9" y="106.0" />
+      <point x="-52.84999999999991" y="38.0" />
+    </edge>
+    <edge source="TVOnCommand" target="Command">
+      <point x="0.0" y="-62.0" />
+      <point x="93.5" y="96.0" />
+      <point x="1152.8000000000002" y="96.0" />
+      <point x="-67.95000000000005" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4651924651924652" x="1211.0" y="270.5" />
+  <SelectedNodes>
+    <node>RemoteLoader4</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
