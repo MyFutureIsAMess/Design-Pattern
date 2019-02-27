@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BeverageTestDrive</OriginalElement>
+  <nodes>
+    <node x="211.0" y="390.0">BeverageTestDrive</node>
+    <node x="154.5" y="0.0">CaffeineBeverageWithHook</node>
+    <node x="309.0" y="218.0">CoffeeWithHook</node>
+    <node x="0.0" y="218.0">TeaWithHook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BeverageTestDrive" target="CoffeeWithHook">
+      <point x="22.0" y="-26.5" />
+      <point x="321.0" y="360.0" />
+      <point x="381.25" y="360.0" />
+      <point x="-72.25" y="61.0" />
+    </edge>
+    <edge source="BeverageTestDrive" target="TeaWithHook">
+      <point x="-22.0" y="-26.5" />
+      <point x="277.0" y="360.0" />
+      <point x="216.75" y="360.0" />
+      <point x="72.25" y="61.0" />
+    </edge>
+    <edge source="TeaWithHook" target="CaffeineBeverageWithHook">
+      <point x="0.0" y="-61.0" />
+      <point x="144.5" y="193.0" />
+      <point x="226.75" y="193.0" />
+      <point x="-72.25" y="84.0" />
+    </edge>
+    <edge source="CoffeeWithHook" target="CaffeineBeverageWithHook">
+      <point x="0.0" y="-61.0" />
+      <point x="453.5" y="193.0" />
+      <point x="371.25" y="193.0" />
+      <point x="72.25" y="84.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="299.0" y="219.0" />
+  <SelectedNodes>
+    <node>BeverageTestDrive</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
