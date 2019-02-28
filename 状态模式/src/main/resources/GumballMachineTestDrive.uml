@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GumballMachineTestDrive</OriginalElement>
+  <nodes>
+    <node x="285.0" y="203.5">SoldState</node>
+    <node x="841.5052083333333" y="1142.0">WinnerState</node>
+    <node x="849.2475198412699" y="0.0">State</node>
+    <node x="544.1148313492063" y="485.0">GumballMachine</node>
+    <node x="467.3648313492063" y="1200.5">GumballMachineTestDrive</node>
+    <node x="860.0" y="192.0">HasQuarterState</node>
+    <node x="0.0" y="203.5">SoldOutState</node>
+    <node x="570.0" y="203.5">NoQuarterState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SoldState" target="GumballMachine">
+      <point x="0.0" y="85.0" />
+      <point x="417.5" y="425.0" />
+      <point x="624.1505456349207" y="425.0" />
+      <point x="-44.464285714285666" y="-303.5" />
+    </edge>
+    <edge source="GumballMachine" target="SoldState">
+      <point x="-62.25" y="-303.5" />
+      <point x="606.3648313492063" y="435.0" />
+      <point x="329.16666666666663" y="435.0" />
+      <point x="-88.33333333333337" y="85.0" />
+    </edge>
+    <edge source="GumballMachineTestDrive" target="GumballMachine">
+      <point x="-50.0" y="-26.5" />
+      <point x="517.3648313492063" y="1122.0" />
+      <point x="575.2398313492063" y="1122.0" />
+      <point x="-93.375" y="303.5" />
+    </edge>
+    <edge source="HasQuarterState" target="GumballMachine">
+      <point x="91.33333333333331" y="96.5" />
+      <point x="1088.3333333333333" y="445.0" />
+      <point x="748.6505456349207" y="445.0" />
+      <point x="80.03571428571433" y="-303.5" />
+    </edge>
+    <edge source="WinnerState" target="State">
+      <point x="88.33333333333331" y="-85.0" />
+      <point x="1062.3385416666665" y="1122.0" />
+      <point x="1176.298115079365" y="1122.0" />
+      <point x="1176.298115079365" y="142.0" />
+      <point x="1018.2475198412699" y="142.0" />
+      <point x="78.0" y="61.0" />
+    </edge>
+    <edge source="NoQuarterState" target="GumballMachine">
+      <point x="0.0" y="85.0" />
+      <point x="705.0" y="405.0" />
+      <point x="677.5076884920634" y="405.0" />
+      <point x="8.89285714285711" y="-303.5" />
+    </edge>
+    <edge source="NoQuarterState" target="State">
+      <point x="0.0" y="-85.0" />
+      <point x="705.0" y="172.0" />
+      <point x="914.2475198412699" y="172.0" />
+      <point x="-26.0" y="61.0" />
+    </edge>
+    <edge source="GumballMachine" target="NoQuarterState">
+      <point x="-8.89285714285711" y="-303.5" />
+      <point x="659.7219742063492" y="405.0" />
+      <point x="615.0" y="405.0" />
+      <point x="-90.0" y="85.0" />
+    </edge>
+    <edge source="SoldState" target="State">
+      <point x="0.0" y="-85.0" />
+      <point x="417.5" y="162.0" />
+      <point x="888.2475198412699" y="162.0" />
+      <point x="-52.0" y="61.0" />
+    </edge>
+    <edge source="GumballMachine" target="SoldOutState">
+      <point x="-115.60714285714278" y="-303.5" />
+      <point x="553.0076884920636" y="465.0" />
+      <point x="44.16666666666674" y="465.0" />
+      <point x="-88.33333333333331" y="85.0" />
+    </edge>
+    <edge source="HasQuarterState" target="State">
+      <point x="0.0" y="-96.5" />
+      <point x="997.0" y="172.0" />
+      <point x="940.2475198412699" y="172.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="WinnerState" target="GumballMachine">
+      <point x="0.0" y="-85.0" />
+      <point x="974.0052083333333" y="1112.0" />
+      <point x="761.9898313492063" y="1112.0" />
+      <point x="93.375" y="303.5" />
+    </edge>
+    <edge source="GumballMachine" target="State">
+      <point x="115.60714285714289" y="-303.5" />
+      <point x="784.2219742063492" y="465.0" />
+      <point x="1155.5" y="465.0" />
+      <point x="1155.5" y="152.0" />
+      <point x="992.2475198412699" y="152.0" />
+      <point x="52.0" y="61.0" />
+    </edge>
+    <edge source="SoldOutState" target="State">
+      <point x="0.0" y="-85.0" />
+      <point x="132.5" y="152.0" />
+      <point x="862.2475198412699" y="152.0" />
+      <point x="-78.0" y="61.0" />
+    </edge>
+    <edge source="SoldOutState" target="GumballMachine">
+      <point x="0.0" y="85.0" />
+      <point x="132.5" y="455.0" />
+      <point x="570.7934027777778" y="455.0" />
+      <point x="-97.82142857142844" y="-303.5" />
+    </edge>
+    <edge source="GumballMachine" target="HasQuarterState">
+      <point x="44.46428571428578" y="-303.5" />
+      <point x="713.079117063492" y="425.0" />
+      <point x="905.6666666666666" y="425.0" />
+      <point x="-91.33333333333333" y="96.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9533039647577091" x="817.5636604188987" y="309.38077634011097" />
+  <SelectedNodes>
+    <node>GumballMachineTestDrive</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
