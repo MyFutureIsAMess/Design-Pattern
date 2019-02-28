@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>MenuTestDrive</OriginalElement>
+  <nodes>
+    <node x="753.8565476190475" y="271.0">NullIterator</node>
+    <node x="78.09345238095244" y="0.0">java.util.Iterator</node>
+    <node x="10.5" y="556.5">CompositeIterator</node>
+    <node x="274.5" y="499.0">MenuItem</node>
+    <node x="8.531309523809568" y="821.0">Menu</node>
+    <node x="308.0" y="202.0">MenuComponent</node>
+    <node x="513.4033333333334" y="1156.0">MenuTestDrive</node>
+    <node x="614.5" y="568.0">Waitress</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CompositeIterator" target="Menu">
+      <point x="58.0" y="73.5" />
+      <point x="184.5" y="781.0" />
+      <point x="134.53130952380957" y="781.0" />
+      <point x="0.0" y="-142.5" />
+    </edge>
+    <edge source="MenuComponent" target="java.util.Iterator">
+      <point x="5.6843418860808015E-14" y="-118.5" />
+      <point x="434.0" y="182.0" />
+      <point x="294.7363095238096" y="182.0" />
+      <point x="48.14285714285717" y="61.0" />
+    </edge>
+    <edge source="MenuTestDrive" target="MenuComponent">
+      <point x="0.0" y="-26.5" />
+      <point x="601.4033333333334" y="1136.0" />
+      <point x="604.0" y="1136.0" />
+      <point x="604.0" y="479.0" />
+      <point x="470.0" y="479.0" />
+      <point x="36.00000000000006" y="118.5" />
+    </edge>
+    <edge source="Menu" target="CompositeIterator">
+      <point x="-50.400000000000034" y="-142.5" />
+      <point x="84.13130952380953" y="801.0" />
+      <point x="68.5" y="801.0" />
+      <point x="-58.0" y="73.5" />
+    </edge>
+    <edge source="NullIterator" target="java.util.Iterator">
+      <point x="0.0" y="-49.5" />
+      <point x="841.3565476190475" y="162.0" />
+      <point x="391.02202380952394" y="162.0" />
+      <point x="144.4285714285715" y="61.0" />
+    </edge>
+    <edge source="MenuTestDrive" target="Waitress">
+      <point x="35.200000000000045" y="-26.5" />
+      <point x="636.6033333333335" y="1126.0" />
+      <point x="722.4033333333334" y="1126.0" />
+      <point x="722.4033333333334" y="801.0" />
+      <point x="672.5" y="801.0" />
+      <point x="-58.0" y="62.0" />
+    </edge>
+    <edge source="CompositeIterator" target="MenuComponent">
+      <point x="77.33333333333331" y="-73.5" />
+      <point x="203.83333333333331" y="459.0" />
+      <point x="326.0" y="459.0" />
+      <point x="-108.0" y="118.5" />
+    </edge>
+    <edge source="Waitress" target="java.util.Iterator">
+      <point x="77.33333333333326" y="-62.0" />
+      <point x="807.8333333333333" y="479.0" />
+      <point x="743.3565476190475" y="479.0" />
+      <point x="743.3565476190475" y="172.0" />
+      <point x="342.8791666666668" y="172.0" />
+      <point x="96.28571428571433" y="61.0" />
+    </edge>
+    <edge source="Waitress" target="MenuComponent">
+      <point x="0.0" y="-62.0" />
+      <point x="730.5" y="459.0" />
+      <point x="542.0" y="459.0" />
+      <point x="108.00000000000006" y="118.5" />
+    </edge>
+    <edge source="CompositeIterator" target="java.util.Iterator">
+      <point x="-77.33333333333331" y="-73.5" />
+      <point x="49.166666666666686" y="479.0" />
+      <point x="74.2146428571429" y="479.0" />
+      <point x="74.2146428571429" y="172.0" />
+      <point x="198.45059523809527" y="172.0" />
+      <point x="-48.14285714285717" y="61.0" />
+    </edge>
+    <edge source="MenuTestDrive" target="MenuItem">
+      <point x="-35.200000000000045" y="-26.5" />
+      <point x="566.2033333333334" y="1126.0" />
+      <point x="434.0" y="1126.0" />
+      <point x="0.0" y="131.0" />
+    </edge>
+    <edge source="Menu" target="java.util.Iterator">
+      <point x="-100.80000000000001" y="-142.5" />
+      <point x="33.73130952380956" y="801.0" />
+      <point x="0.0" y="801.0" />
+      <point x="0.0" y="162.0" />
+      <point x="150.30773809523814" y="162.0" />
+      <point x="-96.2857142857143" y="61.0" />
+    </edge>
+    <edge source="java.util.Iterator" target="java.util.Iterator">
+      <point x="-144.42857142857144" y="61.0" />
+      <point x="102.164880952381" y="142.0" />
+      <point x="58.09345238095244" y="142.0" />
+      <point x="58.09345238095244" y="61.0" />
+      <point x="-168.5" y="-0.0" />
+    </edge>
+    <edge source="MenuTestDrive" target="Menu">
+      <point x="-70.39999999999998" y="-26.5" />
+      <point x="531.0033333333333" y="1136.0" />
+      <point x="134.53130952380957" y="1136.0" />
+      <point x="0.0" y="142.5" />
+    </edge>
+    <edge source="Menu" target="MenuComponent">
+      <point x="100.80000000000001" y="-142.5" />
+      <point x="235.33130952380958" y="801.0" />
+      <point x="264.0" y="801.0" />
+      <point x="264.0" y="479.0" />
+      <point x="398.0" y="479.0" />
+      <point x="-36.0" y="118.5" />
+    </edge>
+    <edge source="MenuItem" target="MenuComponent">
+      <point x="0.0" y="-131.0" />
+      <point x="0.0" y="118.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4569037656903766" x="478.8256165278459" y="517.2344322344322" />
+  <SelectedNodes>
+    <node>CompositeIterator</node>
+    <node>MenuTestDrive</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
