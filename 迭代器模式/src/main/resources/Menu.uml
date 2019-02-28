@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Menu</OriginalElement>
+  <nodes>
+    <node x="361.4272727272727" y="672.0">CafeMenu</node>
+    <node x="642.4854166666667" y="58.5">java.util.Iterator</node>
+    <node x="713.4272727272727" y="672.0">PancakeHouseMenu</node>
+    <node x="46.5" y="369.0">DinerMenuIterator</node>
+    <node x="186.91666666666663" y="0.0">MenuItem</node>
+    <node x="993.5568181818182" y="427.5">Menu</node>
+    <node x="579.5568181818182" y="889.0">MenuTestDrive</node>
+    <node x="713.5568181818182" y="369.0">PancakeHouseIterator</node>
+    <node x="9.42727272727268" y="649.0">DinerMenu</node>
+    <node x="1170.2772727272727" y="672.0">Waitress</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MenuTestDrive" target="CafeMenu">
+      <point x="-11.0" y="-26.5" />
+      <point x="656.5568181818182" y="839.0" />
+      <point x="610.4272727272727" y="839.0" />
+      <point x="83.0" y="62.0" />
+    </edge>
+    <edge source="PancakeHouseMenu" target="PancakeHouseIterator">
+      <point x="0.0" y="-62.0" />
+      <point x="879.4272727272727" y="589.0" />
+      <point x="843.5568181818182" y="589.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="MenuTestDrive" target="PancakeHouseMenu">
+      <point x="11.0" y="-26.5" />
+      <point x="678.5568181818182" y="839.0" />
+      <point x="796.4272727272727" y="839.0" />
+      <point x="-83.0" y="62.0" />
+    </edge>
+    <edge source="CafeMenu" target="Menu">
+      <point x="124.5" y="-62.0" />
+      <point x="651.9272727272727" y="609.0" />
+      <point x="1070.0568181818182" y="609.0" />
+      <point x="-25.5" y="26.5" />
+    </edge>
+    <edge source="CafeMenu" target="MenuItem">
+      <point x="-41.5" y="-62.0" />
+      <point x="485.9272727272727" y="579.0" />
+      <point x="444.57746212121214" y="579.0" />
+      <point x="444.57746212121214" y="309.0" />
+      <point x="375.41666666666663" y="309.0" />
+      <point x="29.0" y="119.5" />
+    </edge>
+    <edge source="PancakeHouseMenu" target="java.util.Iterator">
+      <point x="132.79999999999993" y="-62.0" />
+      <point x="1012.2272727272726" y="629.0" />
+      <point x="1235.916856060606" y="629.0" />
+      <point x="1235.916856060606" y="329.0" />
+      <point x="916.2979166666667" y="329.0" />
+      <point x="105.3125" y="61.0" />
+    </edge>
+    <edge source="DinerMenu" target="DinerMenuIterator">
+      <point x="27.666666666666657" y="-85.0" />
+      <point x="203.0939393939393" y="629.0" />
+      <point x="174.5" y="629.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="PancakeHouseMenu" target="MenuItem">
+      <point x="-66.39999999999998" y="-62.0" />
+      <point x="813.0272727272727" y="559.0" />
+      <point x="632.3797348484849" y="559.0" />
+      <point x="632.3797348484849" y="289.0" />
+      <point x="433.41666666666663" y="289.0" />
+      <point x="87.0" y="119.5" />
+    </edge>
+    <edge source="Waitress" target="MenuItem">
+      <point x="0.0" y="-62.0" />
+      <point x="1275.2772727272727" y="269.0" />
+      <point x="491.41666666666663" y="269.0" />
+      <point x="145.0" y="119.5" />
+    </edge>
+    <edge source="DinerMenu" target="Menu">
+      <point x="138.33333333333337" y="-85.0" />
+      <point x="313.76060606060605" y="599.0" />
+      <point x="1019.0568181818182" y="599.0" />
+      <point x="-76.5" y="26.5" />
+    </edge>
+    <edge source="DinerMenu" target="MenuItem">
+      <point x="-138.33333333333337" y="-85.0" />
+      <point x="37.09393939393931" y="629.0" />
+      <point x="14.0" y="629.0" />
+      <point x="14.0" y="279.0" />
+      <point x="201.41666666666663" y="279.0" />
+      <point x="-145.0" y="119.5" />
+    </edge>
+    <edge source="PancakeHouseIterator" target="java.util.Iterator">
+      <point x="65.0" y="-85.0" />
+      <point x="908.5568181818182" y="349.0" />
+      <point x="832.0479166666667" y="349.0" />
+      <point x="21.0625" y="61.0" />
+    </edge>
+    <edge source="MenuTestDrive" target="DinerMenu">
+      <point x="-55.0" y="-26.5" />
+      <point x="612.5568181818182" y="859.0" />
+      <point x="258.4272727272727" y="859.0" />
+      <point x="83.0" y="85.0" />
+    </edge>
+    <edge source="PancakeHouseMenu" target="Menu">
+      <point x="66.39999999999998" y="-62.0" />
+      <point x="945.8272727272727" y="619.0" />
+      <point x="1121.0568181818182" y="619.0" />
+      <point x="25.5" y="26.5" />
+    </edge>
+    <edge source="DinerMenuIterator" target="java.util.Iterator">
+      <point x="85.33333333333331" y="-85.0" />
+      <point x="259.8333333333333" y="329.0" />
+      <point x="705.6729166666667" y="329.0" />
+      <point x="-105.3125" y="61.0" />
+    </edge>
+    <edge source="PancakeHouseIterator" target="MenuItem">
+      <point x="-65.0" y="-85.0" />
+      <point x="778.5568181818182" y="279.0" />
+      <point x="462.41666666666663" y="279.0" />
+      <point x="116.0" y="119.5" />
+    </edge>
+    <edge source="MenuTestDrive" target="Waitress">
+      <point x="55.0" y="-26.5" />
+      <point x="722.5568181818182" y="859.0" />
+      <point x="1222.7772727272727" y="859.0" />
+      <point x="-52.5" y="62.0" />
+    </edge>
+    <edge source="DinerMenu" target="java.util.Iterator">
+      <point x="83.0" y="-85.0" />
+      <point x="258.4272727272727" y="589.0" />
+      <point x="530.8797348484849" y="589.0" />
+      <point x="530.8797348484849" y="339.0" />
+      <point x="747.7979166666667" y="339.0" />
+      <point x="-63.1875" y="61.0" />
+    </edge>
+    <edge source="Waitress" target="java.util.Iterator">
+      <point x="70.0" y="-62.0" />
+      <point x="1345.2772727272727" y="629.0" />
+      <point x="1367.7979166666667" y="629.0" />
+      <point x="1367.7979166666667" y="259.0" />
+      <point x="958.4229166666667" y="259.0" />
+      <point x="147.4375" y="61.0" />
+    </edge>
+    <edge source="CafeMenu" target="java.util.Iterator">
+      <point x="41.5" y="-62.0" />
+      <point x="568.9272727272727" y="589.0" />
+      <point x="541.8797348484849" y="589.0" />
+      <point x="541.8797348484849" y="349.0" />
+      <point x="789.9229166666667" y="349.0" />
+      <point x="-21.0625" y="61.0" />
+    </edge>
+    <edge source="Menu" target="java.util.Iterator">
+      <point x="0.0" y="-26.5" />
+      <point x="1095.5568181818182" y="339.0" />
+      <point x="874.1729166666667" y="339.0" />
+      <point x="63.1875" y="61.0" />
+    </edge>
+    <edge source="Waitress" target="Menu">
+      <point x="-70.0" y="-62.0" />
+      <point x="1205.2772727272727" y="619.0" />
+      <point x="1172.0568181818182" y="619.0" />
+      <point x="76.5" y="26.5" />
+    </edge>
+    <edge source="java.util.Iterator" target="java.util.Iterator">
+      <point x="-147.4375" y="61.0" />
+      <point x="663.5479166666667" y="200.5" />
+      <point x="622.4854166666667" y="200.5" />
+      <point x="622.4854166666667" y="119.5" />
+      <point x="-168.5" y="-0.0" />
+    </edge>
+    <edge source="DinerMenuIterator" target="MenuItem">
+      <point x="-85.33333333333331" y="-85.0" />
+      <point x="89.16666666666674" y="309.0" />
+      <point x="288.41666666666663" y="309.0" />
+      <point x="-58.0" y="119.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6514522821576764" x="518.0" y="472.0" />
+  <SelectedNodes>
+    <node>Menu</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
