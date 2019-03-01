@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>MatchMakingTestDrive</OriginalElement>
+  <nodes>
+    <node x="22.750000000000114" y="388.5">NonOwnerInvocationHandler</node>
+    <node x="683.7500000000001" y="274.0">PersonBeanImpl</node>
+    <node x="360.7500000000001" y="388.5">OwnerInvocationHandler</node>
+    <node x="445.7500000000001" y="0.0">PersonBean</node>
+    <node x="337.53571428571433" y="654.0">MatchMakingTestDrive</node>
+    <node x="0.0" y="80.5">java.lang.reflect.InvocationHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OwnerInvocationHandler" target="PersonBean">
+      <point x="101.0" y="-50.5" />
+      <point x="613.2500000000001" y="254.0" />
+      <point x="582.2500000000001" y="254.0" />
+      <point x="19.5" y="107.0" />
+    </edge>
+    <edge source="OwnerInvocationHandler" target="java.lang.reflect.InvocationHandler">
+      <point x="-101.0" y="-50.5" />
+      <point x="411.2500000000001" y="234.0" />
+      <point x="227.25" y="234.0" />
+      <point x="75.75" y="26.5" />
+    </edge>
+    <edge source="PersonBeanImpl" target="PersonBean">
+      <point x="0.0" y="-165.0" />
+      <point x="800.7500000000001" y="254.0" />
+      <point x="621.2500000000001" y="254.0" />
+      <point x="58.5" y="107.0" />
+    </edge>
+    <edge source="NonOwnerInvocationHandler" target="java.lang.reflect.InvocationHandler">
+      <point x="-106.00000000000006" y="-50.5" />
+      <point x="-75.75" y="26.5" />
+    </edge>
+    <edge source="NonOwnerInvocationHandler" target="PersonBean">
+      <point x="105.99999999999994" y="-50.5" />
+      <point x="287.75000000000006" y="254.0" />
+      <point x="504.2500000000001" y="254.0" />
+      <point x="-58.5" y="107.0" />
+    </edge>
+    <edge source="MatchMakingTestDrive" target="NonOwnerInvocationHandler">
+      <point x="-110.33333333333331" y="-96.0" />
+      <point x="392.702380952381" y="629.0" />
+      <point x="181.7500000000001" y="629.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="MatchMakingTestDrive" target="OwnerInvocationHandler">
+      <point x="0.0" y="-96.0" />
+      <point x="503.03571428571433" y="629.0" />
+      <point x="512.2500000000001" y="629.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="MatchMakingTestDrive" target="PersonBean">
+      <point x="110.33333333333337" y="-96.0" />
+      <point x="613.3690476190477" y="629.0" />
+      <point x="928.2500000000001" y="629.0" />
+      <point x="928.2500000000001" y="244.0" />
+      <point x="660.2500000000001" y="244.0" />
+      <point x="97.50000000000001" y="107.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7379553466509988" x="460.0" y="440.5" />
+  <SelectedNodes>
+    <node>MatchMakingTestDrive</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
