@@ -1,6 +1,5 @@
+import javax.swing.*;
 import java.awt.*;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
 
 /**
  * @author Guojian Wang
@@ -25,8 +24,8 @@ import java.awt.image.ImageProducer;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  */
-public class ImageComponent extends Component {
-    Icon icon;
+public class ImageComponent extends JComponent {
+    private Icon icon;
 
     public ImageComponent(Icon icon) {
         this.icon = icon;
@@ -38,5 +37,14 @@ public class ImageComponent extends Component {
 
     public void setIcon(Icon icon) {
         this.icon = icon;
+    }
+
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+        int w = icon.getIconWidth();
+        int h = icon.getIconHeight();
+        int x = (800 - w) / 2;
+        int y = (600 - h) / 2;
+        icon.paintIcon(this, g, x, y);
     }
 }

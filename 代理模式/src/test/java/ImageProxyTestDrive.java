@@ -1,11 +1,8 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.net.*;
 import java.awt.event.*;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Enumeration;
-import java.util.Hashtable;
+import javax.swing.*;
+import java.util.*;
 
 /**
  * @author Guojian Wang
@@ -43,7 +40,7 @@ public class ImageProxyTestDrive {
     }
 
     public ImageProxyTestDrive() throws Exception{
-        cds.put("Ambient: Music for Airports", "http://images.amazon.com/images/P/B000003S2K.01.LZZZZZZZ.jpg");
+        cds.put("Ambient: Music for Airports", "http://pic.58pic.com/58pic/14/03/02/58V58PICTFk_1024.jpg");
 
         URL initialURL = new URL((String) cds.get("Ambient: Music for Airports"));
         menuBar = new JMenuBar();
@@ -55,12 +52,12 @@ public class ImageProxyTestDrive {
             String name = (String) e.nextElement();
             JMenuItem menuItem = new JMenuItem(name);
             menu.add(menuItem);
-            /*menuItem.addActionListener(new ActionListener() {
+            menuItem.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                    imageComponent.setIcon(new ImageProxy(getCDUrl(event.getActionCommand())));
+                    imageComponent.setIcon(new ImageProxy(getCDUrl(e.getActionCommand())));
                     frame.repaint();
                 }
-            });*/
+            });
         }
 
         Icon icon = new ImageProxy(initialURL);
